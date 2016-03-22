@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="25" started-at="2016-03-22T14:52:42Z" finished-at="2016-03-22T14:52:42Z">
+    <groups>
+      <group name="checkintest">
+        <method signature="GroupTestExample.testPrintMessage()[pri:0, instance:mypackage.GroupTestExample@3f0ee7cb]" name="testPrintMessage" class="mypackage.GroupTestExample"/>
+        <method signature="GroupTestExample.testSalutationMessage()[pri:0, instance:mypackage.GroupTestExample@3f0ee7cb]" name="testSalutationMessage" class="mypackage.GroupTestExample"/>
+      </group> <!-- checkintest -->
+      <group name="functest">
+        <method signature="GroupTestExample.testPrintMessage()[pri:0, instance:mypackage.GroupTestExample@3f0ee7cb]" name="testPrintMessage" class="mypackage.GroupTestExample"/>
+      </group> <!-- functest -->
+    </groups>
+    <test name="test1" duration-ms="25" started-at="2016-03-22T14:52:42Z" finished-at="2016-03-22T14:52:42Z">
+      <class name="mypackage.GroupTestExample">
+        <test-method status="PASS" signature="testPrintMessage()[pri:0, instance:mypackage.GroupTestExample@3f0ee7cb]" name="testPrintMessage" duration-ms="10" started-at="2016-03-22T09:52:42Z" finished-at="2016-03-22T09:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrintMessage -->
+        <test-method status="PASS" signature="testSalutationMessage()[pri:0, instance:mypackage.GroupTestExample@3f0ee7cb]" name="testSalutationMessage" duration-ms="0" started-at="2016-03-22T09:52:42Z" finished-at="2016-03-22T09:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSalutationMessage -->
+      </class> <!-- mypackage.GroupTestExample -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
