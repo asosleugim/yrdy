@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [TestAll]">
-  <test name="order(failed)">
-    <groups>
-      <run>
-        <include name="functest"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="mypackage.GroupTestExample">
+      <class name="github.test.LoginLogout.GitHubLoginLogout">
         <methods>
-          <include name="testingExitMessage"/>
+          <include name="testLoginLogout"/>
+          <include name="setUpBrowser"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- mypackage.GroupTestExample -->
+      </class> <!-- github.test.LoginLogout.GitHubLoginLogout -->
     </classes>
-  </test> <!-- order(failed) -->
-</suite> <!-- Failed suite [TestAll] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

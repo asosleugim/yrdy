@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mypackage.LindaDong">
+      <class name="github.test.LoginLogout.GitHubLoginLogout">
         <methods>
-          <include name="setup"/>
-          <include name="loadPage"/>
-          <include name="stop"/>
+          <include name="testLoginLogout"/>
+          <include name="setUpBrowser"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- mypackage.LindaDong -->
+      </class> <!-- github.test.LoginLogout.GitHubLoginLogout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

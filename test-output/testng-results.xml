@@ -1,28 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="25" started-at="2016-03-22T14:52:42Z" finished-at="2016-03-22T14:52:42Z">
+  <suite name="Default suite" duration-ms="37582" started-at="2016-03-24T01:11:02Z" finished-at="2016-03-24T01:11:40Z">
     <groups>
-      <group name="checkintest">
-        <method signature="GroupTestExample.testPrintMessage()[pri:0, instance:mypackage.GroupTestExample@3f0ee7cb]" name="testPrintMessage" class="mypackage.GroupTestExample"/>
-        <method signature="GroupTestExample.testSalutationMessage()[pri:0, instance:mypackage.GroupTestExample@3f0ee7cb]" name="testSalutationMessage" class="mypackage.GroupTestExample"/>
-      </group> <!-- checkintest -->
-      <group name="functest">
-        <method signature="GroupTestExample.testPrintMessage()[pri:0, instance:mypackage.GroupTestExample@3f0ee7cb]" name="testPrintMessage" class="mypackage.GroupTestExample"/>
-      </group> <!-- functest -->
+      <group name="firefox">
+        <method signature="GitHubLoginLogout.testLoginLogout()[pri:0, instance:github.test.LoginLogout.GitHubLoginLogout@11dc3715]" name="testLoginLogout" class="github.test.LoginLogout.GitHubLoginLogout"/>
+      </group> <!-- firefox -->
+      <group name="ChromeWin32">
+        <method signature="GitHubLoginLogout.testLoginLogout()[pri:0, instance:github.test.LoginLogout.GitHubLoginLogout@11dc3715]" name="testLoginLogout" class="github.test.LoginLogout.GitHubLoginLogout"/>
+      </group> <!-- ChromeWin32 -->
+      <group name="IEWin32">
+        <method signature="GitHubLoginLogout.testLoginLogout()[pri:0, instance:github.test.LoginLogout.GitHubLoginLogout@11dc3715]" name="testLoginLogout" class="github.test.LoginLogout.GitHubLoginLogout"/>
+      </group> <!-- IEWin32 -->
     </groups>
-    <test name="test1" duration-ms="25" started-at="2016-03-22T14:52:42Z" finished-at="2016-03-22T14:52:42Z">
-      <class name="mypackage.GroupTestExample">
-        <test-method status="PASS" signature="testPrintMessage()[pri:0, instance:mypackage.GroupTestExample@3f0ee7cb]" name="testPrintMessage" duration-ms="10" started-at="2016-03-22T09:52:42Z" finished-at="2016-03-22T09:52:42Z">
+    <test name="Default test" duration-ms="37582" started-at="2016-03-24T01:11:02Z" finished-at="2016-03-24T01:11:40Z">
+      <class name="github.test.LoginLogout.GitHubLoginLogout">
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:github.test.LoginLogout.GitHubLoginLogout@11dc3715]" name="setUpBrowser" is-config="true" duration-ms="5148" started-at="2016-03-23T20:11:02Z" finished-at="2016-03-23T20:11:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPrintMessage -->
-        <test-method status="PASS" signature="testSalutationMessage()[pri:0, instance:mypackage.GroupTestExample@3f0ee7cb]" name="testSalutationMessage" duration-ms="0" started-at="2016-03-22T09:52:42Z" finished-at="2016-03-22T09:52:42Z">
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="testLoginLogout()[pri:0, instance:github.test.LoginLogout.GitHubLoginLogout@11dc3715]" name="testLoginLogout" duration-ms="29446" started-at="2016-03-23T20:11:07Z" finished-at="2016-03-23T20:11:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSalutationMessage -->
-      </class> <!-- mypackage.GroupTestExample -->
-    </test> <!-- test1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- testLoginLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:github.test.LoginLogout.GitHubLoginLogout@11dc3715]" name="tearDown" is-config="true" duration-ms="2958" started-at="2016-03-23T20:11:37Z" finished-at="2016-03-23T20:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- github.test.LoginLogout.GitHubLoginLogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
