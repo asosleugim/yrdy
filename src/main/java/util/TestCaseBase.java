@@ -72,7 +72,7 @@ public class TestCaseBase{
 		
 		
 		threadDriver.set(driver); // for web driver is not thread safe
-		//FunctionUtil.maximeBrowser();// Maximize the browser
+		FunctionUtil.maximeBrowser();// Maximize the browser
 		setDefaultTestData(); //set default test data for each test cases
 	}
 

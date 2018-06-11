@@ -14,6 +14,8 @@ import util.SystemUtil;
 import util.TestCaseBase;
 
 public class GitHubHomePage extends Page {
+	
+	public static String TITLE="GitHub";
 
 	@FindBy(className = "main-content")
 	public WebElement mainClassName;
